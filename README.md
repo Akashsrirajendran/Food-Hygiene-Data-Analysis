@@ -1,1 +1,2 @@
 # Food-Hygiene-Data
+Using R programming, conducted an in-depth analysis of food hygiene data from various UK local authorities, focusing on 347 establishments across different impact levels (A-E). By investigating intervention effectiveness and correlating outcomes with factors like FTE food safety employees, discovered a crucial link: establishments with higher proportions of food safety staff per establishment exhibited markedly improved compliance. This underscores the significance of staffing ratios in ensuring adherence to food safety regulations.
