@@ -1,0 +1,32 @@
+From the summary, it is evident that the values of “Total%ofBroadlyCompliantestablishments-A" and "Total%ofInterventionsachieved-premisesratedA" in the dataset contains NP and NR characters respectively.
+Through the Supporting Notes from Food Hygiene Data, we get to know,
+NP - no premises given at this risk rating. Hence the Numerical Value is 0.
+NR - no interventions due or reported. Hence the Numerical Value is 100.
+The above Graph illustrates that there are more establishments that have higher percentage of interventions successfully achieved.
+ The Correlation between total Percentage of interventions achieved and the FTE food safety employees is -0.02 (Negative Correlation) and from the obtained P Value 0.6552 illustrates the relationship is less significant.
+
+When performing a linear regression between the percentage of successful interventions and the number of FTE food safety staff, the output coefficients are obtained as above.
+
+The coefficient 87.1091 (Intercept) informs us that the overall percentage of interventions that are successful when there are no FTE food safety staff. The coefficient of -0.1195 indicates that the percentage of successful responses drops by 0.1195 for each additional employee recruited. The association is of very low significance because the observed P-value is relatively high at 0.6552.
+
+The ratio of total FTE Food safety Employees and the total number of establishments is created as 'proportionofemployees'which represents as number of food safety employees per establishment.
+
+The Correlation between total Percentage of interventions achieved and the proportion of  employees is 0.21 (Positive Correlation) and P-value is very low (1e-04), indicating that this relationship has high significance.
+When performing a linear regression between the percentage of successful interventions and the proportion of FTE food safety staff per establishment, the output coefficients are obtained as above.
+
+The coefficient 79.536 (Intercept) informs us that the overall percentage of interventions that are successful when there are no FTE food safety staff. The coefficient of 2407.398 indicates that for every 0.01 value increase in the proportion of FTE food safety employees per establishment, the percentage of successful response increases significantly by 24.073. The association is of very high significance because the observed P-value is relatively low at 0.000115.
+
+This report has been created to provide politicians and managers at the Food Standards Agency with a better understanding of how establishments within different Local Authorities in the UK respond to intervention actions taken against them. The data used in this analysis originally included information on 353 establishments within 6 Local Authority types, and had 36 columns of information about each establishment. However, after the data was cleaned, 6 rows with inaccurate information were removed, leaving 347 establishments to be analyzed.
+
+The establishments in the dataset are assigned a rating of A-E based on their potential impact on public health, with A indicating the highest potential impact and E indicating the lowest potential impact. These establishments are then inspected to ensure compliance with hygiene and food safety regulations. If an establishment does not meet the standards, it is given interventions (enforcement actions) to improve. Once the interventions are successfully completed, the establishment is allowed to continue operating.
+
+Tha Above Figure 1 illustrates the distribution of the percentage of establishments (all impact levels combined) that successfully achieved the enforcement actions. It is evident that the higher percentage of establishment achieve the enforcement successfully which shows that whenever enforcement action is implemented successfully there is a positive response from the establishment irrespective of their type.
+
+From Figure 2, the distribution of percentage of enforcement action is much similar across the establishment for individual impact level from A to E. The above graph illustrates that the District Council and London Borough are the Local Authorities that supervises most of the enforcement implemented establishment compared to the other local authorities. The percenatge of Intervention achieved rated C,D,and E are equally distributed from the range 75 to 100 for Local Authority District Council and London Borough.
+
+Figure 3 shows that there is negative correlation between percentage of establishments successfully responding to the enforcement actions and the number of FTE Food Employees indicating that these two variables have practically inverse dependency between them.From the calculation, it is clear that the coefficient 87.1091 (Intercept) informs us that the overall percentage of interventions that are successful when there are no FTE food safety staff and The coefficient of -0.1195 indicates that the percentage of successful responses drops by 0.1195 for each additional employee recruited. In simple terms for every single addition in the number of FTE Food Employees the percentage of successful achievement of intervention by the establishments decreases by 0.12%
+
+
+Similarly the relationship between proportion of successful responses and the number of employees as a proportion of the number of establishments in the local authority is presented in figure 4 which clearly indicates there is a positive correlation.  According to the model, when there is a 0.01 value increase in the proportion of employees, the establishments’ response percentage is predicted to increase by 24.07% indicating that this relationship has high significance.
+
+In summary, the total number of FTE food standard enforcement employees does not necessarily determine the success of interventions in establishments. Rather, the ratio of enforcement employees per establishment is a better indicator of a establishment's compliance with law enforcement actions.
